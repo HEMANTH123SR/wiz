@@ -123,7 +123,30 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="h-52"></div>
+      <div className="h-56">
+
+      </div>
+      <div style={{
+        backgroundImage: 'url(FooterBg.jpg)',
+
+      }} className="py-14">
+
+        <div className="flex flex-col justify-center items-center">
+          <img src="IconEnclosure/b.png" className="w-auto h-auto" />
+          <div className="flex justify-center items-center space-x-8 my-6">
+            <img src="icons/1.png" className="w-12 h-auto" />
+            <img src="icons/2.png" className="w-12 h-auto" />
+            <img src="icons/3.png" className="w-12 h-auto" />
+            <img src="icons/4.png" className="w-12 h-auto" />
+            <img src="icons/5.png" className="w-12 h-auto" />
+            <img src="icons/6.png" className="w-12 h-auto" />
+
+          </div>
+          <img src="IconEnclosure/a.png" className="w-auto h-auto" />
+
+          <h1 className="text-center text-6xl text-[#B5935B] mt-14">Join Hogwarts Now</h1>
+        </div>
+      </div>
     </main>
   );
 }
