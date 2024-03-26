@@ -1,4 +1,13 @@
-import "./globals.css";
+import "./globals.css"
+import localFont from "next/font/local"
+
+const myFont = localFont({
+  src: './Fonts/HarryP-MVZ6w.ttf',
+  display: 'swap'
+})
+
+
+
 
 export default function RootLayout({
   children,
@@ -7,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body className={`${myFont.className}`}>{children}</body>
     </html>
   );
 }
