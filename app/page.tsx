@@ -44,12 +44,13 @@ export default function Home() {
       </div>
 
       <div
-        className="flex flex-col justify-center items-center mx-14"
+        className="flex flex-col justify-center items-center mx-14 rounded-lg "
         style={{
           backgroundImage: "url(HogwartsDining.jpg)",
           backgroundPosition: "center",
           height: "500px",
           width: "auto",
+          border: '2px solid #B5935B'
         }}
       >
         <h1 className="text-6xl text-center text-white">
@@ -73,17 +74,18 @@ export default function Home() {
           which appears on the crest, is “Draco dormiens nunquam titillandus,”
           which means “Never tickle a sleeping dragon.”
         </p>
-      </div>
-
-      <div className="flex flex-col justify-center items-center space-y-12 mt-16">
-        <h1 className="text-6xl text-center text-white">Hogwarts Houses</h1>
-        <div className="flex justify-center space-x-28 items-center">
-          <img src="Houses/Griffindor.png" className="w-32 h-auto" />
-          <img src="Houses/Huffelpuff.png" className="w-32 h-auto" />
-          <img src="Houses/MafloyHouseEWW.png" className="w-32 h-auto" />
-          <img src="Houses/RavenClaw.png" className="w-32 h-auto" />
+        <div className="flex flex-col justify-center items-center space-y-12 mt-16">
+          <h1 className="text-6xl text-center text-white">Hogwarts Houses</h1>
+          <div className="flex justify-center space-x-28 items-center">
+            <img src="Houses/Griffindor.png" className="w-32 h-auto" />
+            <img src="Houses/Huffelpuff.png" className="w-32 h-auto" />
+            <img src="Houses/MafloyHouseEWW.png" className="w-32 h-auto" />
+            <img src="Houses/RavenClaw.png" className="w-32 h-auto" />
+          </div>
         </div>
       </div>
+
+
       <div className="h-44"></div>
       <div className="flex flex-col space-y-7 mx-12">
         <div className="flex space-x-6 bg-[#B5935B] rounded-lg justify-around items-center py-16">
