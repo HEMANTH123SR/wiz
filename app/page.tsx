@@ -10,26 +10,47 @@ export default function Home() {
     >
       <nav className="flex flex-row h-20 w-full justify-between items-center px-4">
         <img src="NavBarLogo.png" className="w-12 h-auto" />
-        <div className="flex justify-center items-center space-x-10  bg-[#B5935B] h-full px-24 rounded-b-2xl">
-          <span className="text-3xl font-semibold text-white">Home</span>
-          <span className="text-3xl font-semibold  text-white">About Us</span>
-          <span className="text-3xl font-semibold  text-white">House</span>
-          <span className="text-3xl font-semibold  text-white">Course</span>
+        <div className="flex justify-center items-center space-x-10   h-full px-24 rounded-b-2xl">
+          <span
+            className="text-4xl font-semibold text-white hover:border-b-2 
+          border-[#B5935B]"
+          >
+            Home
+          </span>
+          <span
+            className="text-4xl font-semibold  text-white hover:border-b-2 
+          border-[#B5935B]"
+          >
+            About Us
+          </span>
+          <span
+            className="text-4xl font-semibold  text-white hover:border-b-2 
+          border-[#B5935B]"
+          >
+            House
+          </span>
+          <span
+            className="text-4xl font-semibold  text-white hover:border-b-2 
+          border-[#B5935B]"
+          >
+            Course
+          </span>
         </div>
         <div className="flex justify-center items-center px-3.5 py-2 bg-[#B5935B] rounded-md  text-xl text-white">
           Attend
         </div>
       </nav>
-      <div className="w-full h-[70vh] flex flex-col justify-center items-center mt-16 ">
+
+      <div className="w-full h-[90vh] flex flex-col justify-center items-center mt-16 ">
         <h1 className="text-8xl text-center text-white">
           Witches , Wizard & Website
         </h1>
         <div className="h-12"></div>
         <div className="w-3/4 flex justify-center items-center space-x-40">
-          <div className="flex justify-center items-center px-3.5 py-2 bg-[#B5935B] rounded-md  text-2xl text-white w-30">
+          <div className="flex justify-center items-center px-3.5 py-2 bg-[#B5935B] rounded-md  text-2xl text-white min-w-40">
             Info
           </div>
-          <div className="flex justify-center items-center px-3.5 py-2 bg-[#B5935B] rounded-md  text-2xl text-white w-30">
+          <div className="flex justify-center items-center px-3.5 py-2 bg-[#B5935B] rounded-md  text-2xl text-white min-w-40">
             Course
           </div>
         </div>
@@ -101,7 +122,8 @@ export default function Home() {
             className="h-44 w-44 rounded-2xl border-2 border-black"
           />
         </div>
-        <div className="flex space-x-6  rounded-lg justify-around items-center py-16"
+        <div
+          className="flex space-x-6  rounded-lg justify-around items-center py-16"
           style={{
             backgroundImage: "url(CoursesBg.jpg)",
             backgroundPosition: "center",
@@ -123,14 +145,13 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="h-56">
-
-      </div>
-      <div style={{
-        backgroundImage: 'url(FooterBg.jpg)',
-
-      }} className="py-14">
-
+      <div className="h-56"></div>
+      <div
+        style={{
+          backgroundImage: "url(FooterBg.jpg)",
+        }}
+        className="py-14"
+      >
         <div className="flex flex-col justify-center items-center">
           <img src="IconEnclosure/b.png" className="w-auto h-auto" />
           <div className="flex justify-center items-center space-x-8 my-6">
@@ -140,11 +161,12 @@ export default function Home() {
             <img src="icons/4.png" className="w-12 h-auto" />
             <img src="icons/5.png" className="w-12 h-auto" />
             <img src="icons/6.png" className="w-12 h-auto" />
-
           </div>
           <img src="IconEnclosure/a.png" className="w-auto h-auto" />
 
-          <h1 className="text-center text-6xl text-[#B5935B] mt-14">Join Hogwarts Now</h1>
+          <h1 className="text-center text-6xl text-[#B5935B] mt-14">
+            Join Hogwarts Now
+          </h1>
         </div>
       </div>
     </main>
